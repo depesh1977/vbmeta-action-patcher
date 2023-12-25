@@ -6,7 +6,7 @@ on:
       ARCHITECTURE:
         description: 'Architecture'
         required: true
-        default: 'x86_64'
+        default: 'armaebi-v7a'
         type: choice
         options:
         - x86_64
