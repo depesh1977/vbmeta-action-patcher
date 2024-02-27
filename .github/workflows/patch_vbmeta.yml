@@ -47,7 +47,7 @@ jobs:
         draft: false
         prerelease: true
         tag: ${{ github.run_id }}
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.axe }}
         body: |
           Your vbmeta image are now ready!
           Flash it now.
